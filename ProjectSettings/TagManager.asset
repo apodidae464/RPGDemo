@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Spider
+  - Skeleton
+  - Dragon
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: underGround
+    uniqueID: 1500025253
+    locked: 0
+  - name: gound
+    uniqueID: 207430897
+    locked: 0
+  - name: onGround
+    uniqueID: 144761793
+    locked: 0
+  - name: onGroundObject
+    uniqueID: 3773253065
+    locked: 0
+  - name: BattleBG
+    uniqueID: 989597903
+    locked: 0
+  - name: BattleChar
+    uniqueID: 3552591679
+    locked: 0

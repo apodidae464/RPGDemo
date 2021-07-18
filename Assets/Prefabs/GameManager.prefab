@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8556200155887690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8556200155887692}
+  - component: {fileID: 8556200155887691}
+  m_Layer: 0
+  m_Name: Player1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8556200155887692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556200155887690}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8556201680145220}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8556200155887691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556200155887690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 678b3bf0f8be39e49b8ea1105e6e17b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: AncleHoa
+  playerlvl: 1
+  currentEXP: 250
+  currentHP: 10
+  maxHP: 100
+  currentMP: 15
+  maxMP: 30
+  streng: 15
+  defence: 12
+  weponPower: 0
+  armorPower: 0
+  equipperWepon: 
+  equipperArmor: 
+  charImg: {fileID: 794369475904173520, guid: 6cb401bc42ce70246853d24a9bb1dbf6, type: 3}
+  expLevel: 00000000f4010000e8030000dc050000d0070000c4090000b80b0000ac0d0000a00f0000
+  maxlvl: 9
+  baseEXP: 1000
+  currentGold: 0
+--- !u!1 &8556201680145219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8556201680145220}
+  - component: {fileID: 588099141702620625}
+  - component: {fileID: 1438040170}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8556201680145220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556201680145219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7913876, y: -0.373223, z: -0.8535156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8556200155887692}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &588099141702620625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556201680145219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7076a0732c92d4c806ad6be9bf79a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playersStats: {fileID: 8556200155887691}
+  gameMenuOpen: 0
+  dialogActive: 0
+  fadingBetweenArea: 0
+  shopActive: 0
+  itemsHeld:
+  - CuArmor
+  - Silver Armor
+  - 
+  - SilverSword
+  - Health Potion
+  - 
+  - WoodSword
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  numberOfItems: 010000000100000000000000010000000a000000000000000100000000000000000000000e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  referenceItems:
+  - {fileID: 7989975883460920301, guid: bc7aea66f10e5b94b8ffb6f4f7d3ec1b, type: 3}
+  - {fileID: 1733687220175158306, guid: 8aee7774000b44f4d87237f0f197583a, type: 3}
+  - {fileID: 2020062272232751430, guid: cf99069bef305a048aa6a72cc71082ef, type: 3}
+  - {fileID: 1376916947424557526, guid: 4b5e10398c26b334487d5d049bca682b, type: 3}
+  - {fileID: 789465678032078116, guid: 6834f2ec221175d4eb2882a4442d5b6b, type: 3}
+  - {fileID: 6317626761872770150, guid: 0d63de34a18a0ff40ac94738a1f529c2, type: 3}
+--- !u!114 &1438040170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556201680145219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3af3daa6473e194bade946163553314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMakerNames:
+  - 
+  - Fight the Dragon
+  - Enter Cave
+  - Enter Park
+  - Save the world
+  - Do something
+  questMakersComplete: 
